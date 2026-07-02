@@ -1,6 +1,6 @@
 [project]
 name = "mainfinity-django-mpesa"
-version = "0.1.0"
+version = "0.1.1"
 description = "A production-hardened Django app for Safaricom's Daraja M-PESA API"
 readme = "README.md"
 license = { text = "MIT" }

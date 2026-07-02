@@ -7,6 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.1] — 2026-07-02
+
+### Fixed
+
+- Corrected all PyPI project links (Homepage, Documentation, Repository, Changelog) to point to the correct URLs at `github.com/Wachiradanito/django-mpesa` and `mainfinity-django-mpesa.readthedocs.io`
+- Updated install instructions throughout README and docs to `pip install mainfinity-django-mpesa`
+- CI matrix updated to Django 5.1 (5.0 is EOL)
+- Switched publish workflow to Trusted Publishing (no API token required)
+
 ## [0.1.0] — 2026-07-02
 
 ### Added
