@@ -1,5 +1,5 @@
 [project]
-name = "django-mpesa"
+name = "mainfinity-django-mpesa"
 version = "0.1.0"
 description = "A production-hardened Django app for Safaricom's Daraja M-PESA API"
 readme = "README.md"
