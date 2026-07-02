@@ -1,0 +1,46 @@
+site_name: django-mpesa
+site_url: https://django-mpesa.readthedocs.io
+repo_url: https://github.com/mainfinity/django-mpesa
+repo_name: mainfinity/django-mpesa
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  palette:
+    primary: green
+    accent: light green
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - content.code.copy
+    - search.suggest
+    - search.highlight
+
+nav:
+  - Home: index.md
+  - Getting Started: quickstart.md
+  - Configuration: settings.md
+  - Services:
+    - STK Push: services/stk_push.md
+    - C2B: services/c2b.md
+    - B2C: services/b2c.md
+    - Transaction Status: services/transaction_status.md
+    - Account Balance: services/account_balance.md
+    - Reversal: services/reversal.md
+  - Reference:
+    - Models: models.md
+    - Callbacks: callbacks.md
+    - Signals: signals.md
+    - Testing: testing.md
+    - Security: security.md
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - admonition
+  - pymdownx.details
+  - tables
+  - attr_list
