@@ -43,11 +43,11 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/mainfinity/django-mpesa"
-Documentation = "https://django-mpesa.readthedocs.io"
-Repository = "https://github.com/mainfinity/django-mpesa"
-Issues = "https://github.com/mainfinity/django-mpesa/issues"
-Changelog = "https://github.com/mainfinity/django-mpesa/blob/main/CHANGELOG.md"
+Homepage = "https://github.com/Wachiradanito/django-mpesa"
+Documentation = "https://mainfinity-django-mpesa.readthedocs.io"
+Repository = "https://github.com/Wachiradanito/django-mpesa"
+Issues = "https://github.com/Wachiradanito/django-mpesa/issues"
+Changelog = "https://github.com/Wachiradanito/django-mpesa/blob/main/CHANGELOG.md"
 
 [build-system]
 requires = ["hatchling"]

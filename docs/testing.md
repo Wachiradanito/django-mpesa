@@ -5,7 +5,7 @@ The library ships a `MockDarajaClient` and pytest fixtures so your test suite ne
 ## Install test extras
 
 ```bash
-pip install django-mpesa[test]
+pip install mainfinity-django-mpesa[test]
 ```
 
 ## MockDarajaClient

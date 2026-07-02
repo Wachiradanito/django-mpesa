@@ -1,7 +1,7 @@
-site_name: django-mpesa
-site_url: https://django-mpesa.readthedocs.io
-repo_url: https://github.com/mainfinity/django-mpesa
-repo_name: mainfinity/django-mpesa
+site_name: mainfinity-django-mpesa
+site_url: https://mainfinity-django-mpesa.readthedocs.io
+repo_url: https://github.com/Wachiradanito/django-mpesa
+repo_name: Wachiradanito/django-mpesa
 edit_uri: edit/main/docs/
 
 theme:

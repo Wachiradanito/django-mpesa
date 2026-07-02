@@ -7,10 +7,10 @@ From `pip install` to a working STK Push in under 10 minutes.
 ## 1. Install
 
 ```bash
-pip install django-mpesa
+pip install mainfinity-django-mpesa
 
 # With Celery (recommended for production):
-pip install django-mpesa[celery]
+pip install mainfinity-django-mpesa[celery]
 ```
 
 ## 2. Add to INSTALLED_APPS

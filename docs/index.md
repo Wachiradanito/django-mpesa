@@ -35,10 +35,10 @@ Extracted from production use in [Zaruni](https://zaruni.com) and packaged for r
 ## Quick install
 
 ```bash
-pip install django-mpesa
+pip install mainfinity-django-mpesa
 
 # With Celery support:
-pip install django-mpesa[celery]
+pip install mainfinity-django-mpesa[celery]
 ```
 
 See the [quickstart guide](quickstart.md) to go from install to a working STK Push in under 10 minutes.

@@ -1,10 +1,10 @@
-# django-mpesa
+# mainfinity-django-mpesa
 
-[![PyPI version](https://img.shields.io/pypi/v/django-mpesa.svg)](https://pypi.org/project/django-mpesa/)
-[![CI](https://github.com/mainfinity/django-mpesa/actions/workflows/test.yml/badge.svg)](https://github.com/mainfinity/django-mpesa/actions/workflows/test.yml)
-[![Coverage](https://codecov.io/gh/mainfinity/django-mpesa/branch/main/graph/badge.svg)](https://codecov.io/gh/mainfinity/django-mpesa)
-[![Python versions](https://img.shields.io/pypi/pyversions/django-mpesa.svg)](https://pypi.org/project/django-mpesa/)
-[![Django versions](https://img.shields.io/badge/django-4.2%20%7C%205.0-blue)](https://pypi.org/project/django-mpesa/)
+[![PyPI version](https://img.shields.io/pypi/v/mainfinity-django-mpesa.svg)](https://pypi.org/project/mainfinity-django-mpesa/)
+[![CI](https://github.com/Wachiradanito/django-mpesa/actions/workflows/test.yml/badge.svg)](https://github.com/Wachiradanito/django-mpesa/actions/workflows/test.yml)
+[![Coverage](https://codecov.io/gh/Wachiradanito/django-mpesa/branch/main/graph/badge.svg)](https://codecov.io/gh/Wachiradanito/django-mpesa)
+[![Python versions](https://img.shields.io/pypi/pyversions/mainfinity-django-mpesa.svg)](https://pypi.org/project/mainfinity-django-mpesa/)
+[![Django versions](https://img.shields.io/badge/django-4.2%20%7C%205.1-blue)](https://pypi.org/project/mainfinity-django-mpesa/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 A production-hardened Django app for Safaricom's Daraja M-PESA API.
@@ -30,7 +30,7 @@ Extracted from production use in [Zaruni](https://zaruni.com) and packaged for r
 ## Requirements
 
 - Python 3.10, 3.11, or 3.12
-- Django 4.2 or 5.0
+- Django 4.2 or 5.1
 - djangorestframework ≥ 3.14
 - requests ≥ 2.31
 - Celery ≥ 5.3 *(optional — set `USE_CELERY=False` for synchronous processing)*
@@ -38,15 +38,15 @@ Extracted from production use in [Zaruni](https://zaruni.com) and packaged for r
 ## Installation
 
 ```bash
-pip install django-mpesa
+pip install mainfinity-django-mpesa
 
 # With Celery support:
-pip install django-mpesa[celery]
+pip install mainfinity-django-mpesa[celery]
 ```
 
 ## Quick start
 
-See the full [quickstart guide](https://django-mpesa.readthedocs.io/quickstart/) to go from install to a working STK Push in under 10 minutes.
+See the full [quickstart guide](https://mainfinity-django-mpesa.readthedocs.io/en/stable/quickstart/) to go from install to a working STK Push in under 10 minutes.
 
 ```python
 # 1. Add to INSTALLED_APPS
@@ -94,7 +94,7 @@ def on_payment(sender, transaction, **kwargs):
 
 ## Documentation
 
-Full documentation at [django-mpesa.readthedocs.io](https://django-mpesa.readthedocs.io).
+Full documentation at [mainfinity-django-mpesa.readthedocs.io](https://mainfinity-django-mpesa.readthedocs.io).
 
 ## Contributing
 
